@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MStore</title>
+    <!-- FontAwesome Scripts -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap Scripts -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <!-- Fonts via fonts.google -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;900&family=Roboto:wght@400;500;700&family=Ubuntu:wght@500;900&Ubuntu+Mono:wght@400;500;
+      700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- My CSS file -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container-fluid header-nav">
+        <!-- Header Navigation bar -->
+        <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a href="#" class="nav-link text-dark">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-white">PRODUCTS</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-white">PRODUCT DETAIL</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-white">CART</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-white">CHECK OUT</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-white">MY ACCOUNT</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-white dropdown-toggle">
+                  MORE PAGES
+                </a>
+              </li>
+            </ul>
+            <li class="navbar-nav nav-item">
+              <div class="nav-link text-white dropdown-toggle">
+                USER ACCOUNT
+              </div>
+            </li>
+          </nav>
+        </div>
+      </div>
+      <!-- Header Bar -->
+      
+      <div class="container">
+       <div class="row">
+           <div class="col-3 my-2">
+            <a href="#" class="navbar-brand text-black-50 n-logo">
+                <span class="n-font">M</span>Store</a>         
+            </div>
+            <div class="col-6 my-4">
+                <form class="me-5">
+                    <input type="search" placeholder="Search" class=" form-control border border-danger">
+                </form>
+            </div>
+            <div class="col-3 my-4 ">
+                <button class="btn btn-lg btn-outline-danger order-button me-2"><i class="fas fa-heart"></i> (0)</button>
+                <button class="btn  btn-lg order-button btn-outline-danger"><i class="fas fa-shopping-cart"></i> (0)</button> 
+            </div>
+           </div>
+       </div>
+    </header>
+    <!-- Main Section -->
+    <section class="main-section py-5">
+        <!-- navigation accessories bar -->
+        <div class="container py-5">
+            <div class="row">
+                <nav class="col bg-light ps-4">
+                <div class="list-group text-center pt-4 text-lg-start">
+                    <a href="#" class="text-decoration-none list-group-item-action my-2">
+                        <i class="fas fa-home me-2 text-danger"></i>
+                        <span class="d-none d-lg-inline">Home</span>
+                    </a>
+                    <a href="#" class="text-decoration-none list-group-item-action my-2">
+                        <i class="fas fa-shopping-bag me-2 text-danger"></i>
+                        <span class="d-none d-lg-inline">Best Selling</span>
+                    </a>
+                    <a href="#" class="text-decoration-none list-group-item-action my-2">
+                        <i class="fas fa-plus-square me-2 text-danger"></i>
+                        <span class="d-none d-lg-inline">New Arrivals</span>
+                    </a>
+                    <a href="#" class="text-decoration-none list-group-item-action my-2">
+                        <i class="fas fa-fan me-2 text-danger"></i>
+                        <span class="d-none d-lg-inline">Fashion & Beauty</span>
+                    </a>
+                    <a href="#" class="text-decoration-none list-group-item-action my-2">
+                        <i class="fas fa-child me-2 text-danger"></i>
+                        <span class="d-none d-lg-inline">Kids & Babe Clothes</span>
+                    </a>
+                    <a href="#" class="text-decoration-none list-group-item-action my-2">
+                        <i class="fas fa-tshirt me-2 text-danger"></i>
+                        <span class="d-none d-lg-inline">Men & Woman Cloth</span>
+                    </a>
+                    <a href="#" class="text-decoration-none list-group-item-action mt-2">
+                        <i class="fas fa-mobile me-2 text-danger"></i>
+                        <span class="d-none d-lg-inline">Gadgets Accessories</span>
+                    </a>
+                 
+                </div>
+                </nav>
+                <!-- image section -->
+                <div class="col-6 ms-2 me-5">
+                    <img src="images/clothes.jpg" alt="clothes" class="img-fluid main-img">
+                </div>
+                <!-- aside Section -->
+                <div class="col g-0 ms-5">
+                   
+                        <div class="row">
+                            <img src="images/aside_image.jpg" alt="clothes" class="img-fluid aside-img">
+                        </div>
+                 
+                    <div class="row">
+                        <img src="images/aside_img.jpg" alt="clothes" class="img-fluid aside-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonial Sections -->
+    <section class="testimonial-section">
+      <div class="container py-4">
+        <div class="row">
+          <!--First Testimonial Card  -->
+          <div class="col-6">
+            <div class="card  mb-3">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="images/customer.jpg" class="testimonial-img" alt="customer">
+                </div>
+                <div class="col-8">
+                  <div class="card-body">
+                    <h4 class="card-title">Han Nay Thar</h4>
+                    <small class="text-muted">Singer</small> <br>
+                    <small><i class="fas fa-star"></i></small>
+                    <small><i class="fas fa-star"></i></small>
+                    <small><i class="fas fa-star"></i></small>
+                    <small><i class="fas fa-star"></i></small>
+                    <small><i class="fas fa-star"></i></small>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam impedit odio molestiae iure cupiditate quas saepe</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Second Testimonial Card -->
+          <div class="col-6">
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="images/customer.jpg" class="testimonial-img" alt="customer">
+                </div>
+                <div class="col-8">
+                  <div class="card-body">
+                    <h4 class="card-title">Han Nay Thar</h4>
+                    <small class="text-muted">Singer</small> <br>
+                    <small><i class="fas fa-star"></i></small>
+                    <small><i class="fas fa-star"></i></small>
+                    <small><i class="fas fa-star"></i></small>
+                    <small><i class="fas fa-star"></i></small>
+                    <small><i class="fas fa-star"></i></small>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam impedit odio molestiae iure cupiditate quas saepe</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Payment and Information Section -->
+    <section>
+      <div class="container py-5">
+        <div class="row">
+          <!-- Contact Info -->
+          <div class="col">
+            <h4 class="h5 info-title">
+              Get In Touch
+            </h4>
+            <ul class="list-group text-center pt-4 text-lg-start">
+              <a href="#" class="text-decoration-none list-group-item-action my-2">
+                <i class="fas fa-map-marked-alt me-1"></i>
+                  <span class="d-none d-lg-inline">No.7, U Ba Kyaw Street, Tarmwe Lay Ward, Yangon</span>
+               </a>
+               <a href="#" class="text-decoration-none list-group-item-action my-2">
+                <i class="fas fa-phone me-1"></i>
+                <span class="d-none d-lg-inline">09-790 777 126</span>
+             </a>
+             <a href="#" class="text-decoration-none list-group-item-action my-2">
+              <i class="fas fa-envelope me-1"></i>
+              <span class="d-none d-lg-inline">mymeproject@gmail.com</span>
+           </a>
+            </ul>
+        </div>
+        <!-- Follow US -->
+        <div class="col">
+          <h4 class="info-title mb-5">Follow Us</h4>
+          <i class="fab fa-facebook me-3 info-logo"></i>
+          <i class="fab fa-twitter me-3 info-logo"></i>
+          <i class="fab fa-linkedin me-3 info-logo"></i>
+          <i class="fab fa-instagram me-3 info-logo"></i>
+          <i class="fab fa-youtube me-3 info-logo"></i>
+        </div>
+        <!-- Company Info -->
+        <div class="col">
+          <h4 class="info-title">Company Info</h4>
+          <ul class="list-group text-center pt-4 text-lg-start">
+            <a href="#" class="text-decoration-none list-group-item-action my-2">
+              <i class="fas fa-greater-than me-1"></i>
+                <span class="d-none d-lg-inline">About Us</span>
+             </a>
+             <a href="#" class="text-decoration-none list-group-item-action my-2">
+              <i class="fas fa-greater-than me-1"></i>
+                <span class="d-none d-lg-inline">Privacy Policy</span>
+             </a>
+             <a href="#" class="text-decoration-none list-group-item-action my-2">
+              <i class="fas fa-greater-than me-1"></i>
+                <span class="d-none d-lg-inline">Terms & Condition</span>
+             </a>
+             </ul>
+        </div>
+        <!-- Purchse Info -->
+        <div class="col">
+          <h4 class="info-title">Purchase Info</h4>
+          <ul class="list-group text-center pt-4 text-lg-start">
+            <a href="#" class="text-decoration-none list-group-item-action my-2">
+              <i class="fas fa-greater-than me-1"></i>
+                <span class="d-none d-lg-inline">Payment Policy</span>
+             </a>
+             <a href="#" class="text-decoration-none list-group-item-action my-2">
+              <i class="fas fa-greater-than me-1"></i>
+                <span class="d-none d-lg-inline">Shipping Policy</span>
+             </a>
+             <a href="#" class="text-decoration-none list-group-item-action my-2">
+              <i class="fas fa-greater-than me-1"></i>
+                <span class="d-none d-lg-inline">Return Policy</span>
+             </a>
+             </ul>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col">
+          <h3 class="info-title d-inline">We Accept:</h3>
+          <img src="images/cards/visa.png" alt="visa">
+          <img src="images/cards/master.png" alt="visa">
+          <img src="images/cards/paypal.png" alt="visa">
+          <img src="images/cards/apple.png" alt="visa">
+
+        </div>
+        <div class="col text-end">
+          <h3 class="info-title d-inline">Secured By:</h3>
+          <img src="images/cards/ssl.png" alt="visa">
+          <img src="images/cards/duckduckgo.png" alt="visa">
+          <img src="images/cards/redhat.png" alt="visa">
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+       <footer class="footer-section text-white py-2">
+        2020 Copy Right &copy; <span class="text-success">Aung KO</span> .All Rights Reserved.
+       </footer>
+  </body>
+</html>
